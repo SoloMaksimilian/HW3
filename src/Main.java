@@ -26,7 +26,15 @@ public class Main {
         char EkaterinaAndreevna = 30;
         char allPages = 480;
         int oneStudent = allPages / (LudmilaPavlovna + AnnaSergeevna + EkaterinaAndreevna);
-        System.out.println("На каждого ученика рассчитано " + oneStudent +" листов бумаги");
+            System.out.println("На каждого ученика рассчитано " + oneStudent +" листов бумаги");
+
+        byte efficiencyTwoMin = 16;
+        int efficiencyOneMin = efficiencyTwoMin / 2;
+        int oneTime = efficiencyOneMin * 20;
+        int twoTime = efficiencyOneMin * 60 * 24;
+        int threeTime = efficiencyOneMin * 60 * 24 * 3;
+        int fourTime = efficiencyOneMin * 60 * 24 * 30;
+
 
     }
 }
