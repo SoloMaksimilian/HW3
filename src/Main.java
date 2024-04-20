@@ -12,5 +12,13 @@ public class Main {
             System.out.println("Значение переменной d с типом long равно " + d);
             System.out.println("Значение переменной e с типом float равно " + e);
             System.out.println("Значение переменной f с типом double равно " + f);
+
+        float g1 = 27.12f;
+        long g2 = 987678965549L;
+        float g3 = 2.786f;
+        short g4 = 569;
+        short g5 = -159;
+        char g6 = 27897;
+        byte g7 = 67;
     }
 }
