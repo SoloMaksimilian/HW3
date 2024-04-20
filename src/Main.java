@@ -20,5 +20,13 @@ public class Main {
         short g5 = -159;
         char g6 = 27897;
         byte g7 = 67;
+
+        char LudmilaPavlovna = 23;
+        char AnnaSergeevna = 27;
+        char EkaterinaAndreevna = 30;
+        char allPages = 480;
+        int oneStudent = allPages / (LudmilaPavlovna + AnnaSergeevna + EkaterinaAndreevna);
+        System.out.println("На каждого ученика рассчитано " + oneStudent +" листов бумаги");
+
     }
 }
