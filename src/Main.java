@@ -31,9 +31,14 @@ public class Main {
         byte efficiencyTwoMin = 16;
         int efficiencyOneMin = efficiencyTwoMin / 2;
         int oneTime = efficiencyOneMin * 20;
+            System.out.println("За 20 минут машина произвела " + oneTime +" штук бутылок");
         int twoTime = efficiencyOneMin * 60 * 24;
+            System.out.println("За сутки машина произвела " + twoTime +" штук бутылок");
         int threeTime = efficiencyOneMin * 60 * 24 * 3;
+            System.out.println("За 3 дня машина произвела " + threeTime +" штук бутылок");
         int fourTime = efficiencyOneMin * 60 * 24 * 30;
+            System.out.println("За 1 месяц машина произвела " + fourTime +" штук бутылок");
+
 
 
 
