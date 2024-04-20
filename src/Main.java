@@ -48,6 +48,19 @@ public class Main {
         int brownPot = (allPot / oneClassroom) * brownOneClass;
             System.out.println("В школе, где " + classrooms + " классов, нужно " + whitePot + " банок белой краски и " + brownPot + " банок коричневой краски");
 
+        byte oneBanana = 80;
+        byte oneMilk = 105;
+        byte oneIceCream = 100;
+        byte oneEgg = 70;
+        int portionBanana = 5 * oneBanana;
+        int portionMilk = 2 * oneMilk;
+        int portionIceCream = 2 * oneIceCream;
+        int portionEgg = 4 * oneEgg;
+        float onePortion = portionBanana + portionEgg + portionMilk + portionIceCream;
+            System.out.println("Вес завтрака спортсмена составляет " + onePortion +" грамм");
+            System.out.println("Вес завтрака спортсмена составляет " + onePortion / 1000 +" кило");
+
+
 
     }
 }
