@@ -36,5 +36,6 @@ public class Main {
         int fourTime = efficiencyOneMin * 60 * 24 * 30;
 
 
+
     }
 }
