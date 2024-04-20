@@ -39,7 +39,14 @@ public class Main {
         int fourTime = efficiencyOneMin * 60 * 24 * 30;
             System.out.println("За 1 месяц машина произвела " + fourTime +" штук бутылок");
 
-
+        byte allPot = 120;
+        byte whiteOneClass = 2;
+        byte brownOneClass = 4;
+        int oneClassroom = (whiteOneClass) + (brownOneClass);
+        int classrooms = allPot / oneClassroom;
+        int whitePot = (allPot / oneClassroom) * whiteOneClass;
+        int brownPot = (allPot / oneClassroom) * brownOneClass;
+            System.out.println("В школе, где " + classrooms + " классов, нужно " + whitePot + " банок белой краски и " + brownPot + " банок коричневой краски");
 
 
     }
