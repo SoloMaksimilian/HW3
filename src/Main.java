@@ -70,6 +70,21 @@ public class Main {
         float averageTime = allWeight / ((minWeight + maxWeight) / 2);
             System.out.println(averageTime +" дней может потребоваться в среднем, чтобы добиться результата похудения");
 
+        int Masha = 67760;
+        int Denis = 83690;
+        int Kristina = 76230;
+        int newMasha = (Masha / 100 ) * 110;
+        int newDenis = (Denis / 100 ) * 110;
+        int newKristina = (Kristina / 100 ) * 110;
+            System.out.println("Новая зп Маши составляет " + newMasha + " рублей");
+            System.out.println("Новая зп Дениса составляет " + newDenis + " рублей");
+            System.out.println("Новая зп Кристины составляет " + newKristina + " рублей");
+        int newYearMasha = (newMasha * 12) - (Masha * 12);
+        int newYearDines = (newDenis * 12) - (Denis * 12);
+        int newYearKristina = (newKristina * 12) - (Kristina * 12);
+            System.out.println("Разница годовой зп Маши составляет " + newYearMasha + " рублей");
+            System.out.println("Разница годовой зп Дениса составляет " + newYearDines + " рублей");
+            System.out.println("Разница годовой зп Кристины составляет " + newYearKristina + " рублей");
 
     }
 }
