@@ -60,6 +60,15 @@ public class Main {
             System.out.println("Вес завтрака спортсмена составляет " + onePortion +" грамм");
             System.out.println("Вес завтрака спортсмена составляет " + onePortion / 1000 +" кило");
 
+        short allWeight = 7000;
+        short minWeight = 250;
+        short maxWeight = 500;
+        float maxTime = allWeight / minWeight;
+            System.out.println( maxTime + " дней уйдет на похудение, если спортсмен будет терять каждый день по 250 грамм");
+        float minTime = allWeight / maxWeight;
+            System.out.println( minTime + " дней уйдет на похудение, если спортсмен будет терять каждый день по 500 грамм");
+        float averageTime = allWeight / ((minWeight + maxWeight) / 2);
+            System.out.println(averageTime +" дней может потребоваться в среднем, чтобы добиться результата похудения");
 
 
     }
